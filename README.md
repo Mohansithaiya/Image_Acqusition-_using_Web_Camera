@@ -1,5 +1,5 @@
 
-Aim:
+## Aim:
  
 To write a python program using OpenCV to capture the image from the web camera and do the following image manipulations.
 i) Write the frame as JPG 
@@ -12,26 +12,21 @@ Anaconda - Python 3.7
 ## Algorithm
 ### Step 1:
 Use cv2.VideoCapture(0) to access web camera.
-<br>
 
 ### Step 2:
 Use cv2.imread to read the video or image.
-<br>
 
 ### Step 3:
 Use cv2.imwrite to save the image.
-<br>
 
 ### Step 4:
 Use cv2.imshow to show the video.
-<br>
 
 ### Step 5:
 End the program and close the output video window by pressing 'q'.
-<br>
 
 ## Program:
-``` Python
+
 ### Developed By: MOHAN S
 ### Register No: 212223240094
 
@@ -51,7 +46,7 @@ cv2.destroyAllWindows()
 
 ## ii) Display the video
 ```python
- import numpy as np
+import numpy as np
 import cv2
 
 cap = cv2.VideoCapture(0)
@@ -100,7 +95,7 @@ cv2.destroyAllWindows()
 
 ## iv) Rotate and display the video
 ```python
- import numpy as np
+import numpy as np
 import cv2
 cap=cv2.VideoCapture(0)
 
@@ -125,40 +120,27 @@ cap.release()
 cv2.destroyAllWindows()
 ```
 
-
-
-
-
-
-
-
-
-```
 ## Output
 
 ### i) Write the frame as JPG image
-</br>
-mohan_dip.jpg
-</br>
+
+![alt text](mohan_dip.jpg)
 
 
 ### ii) Display the video
-</br>
-Screenshot 2025-03-22 144624.png
-</br>
+
+![alt text](<Screenshot 2025-03-22 144624.png>)
+
 
 
 ### iii) Display the video by resizing the window
-</br>
-captured_image1.jpg
-</br>
 
+![alt text](captured_image1.jpg)
 
 
 ### iv) Rotate and display the video
-</br>
-captured_image2.jpg
-</br>
+
+![alt text](captured_image2.jpg)
 
 
 ## Result:
